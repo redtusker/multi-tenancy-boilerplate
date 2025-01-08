@@ -13,6 +13,7 @@
         "laravel/framework": "^11.31",
         "laravel/tinker": "^2.9",
         "nnjeim/world": "^1.1",
+        "sfolador/measures-for-laravel": "*",
         "stancl/tenancy": "^3.8"
     },
     "require-dev": {
