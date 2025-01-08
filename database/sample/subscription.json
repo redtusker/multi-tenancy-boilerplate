@@ -1,0 +1,431 @@
+{
+    "jsonrpc": "2.0",
+    "id": 13,
+    "result": [
+        {
+            "id": 2,
+            "locked": false,
+            "authorized_transaction_ids": [],
+            "state": "draft",
+            "is_subscription": true,
+            "subscription_state": "1_draft",
+            "end_date": "2025-05-31",
+            "has_recurring_line": false,
+            "user_quantity": false,
+            "user_extend": false,
+            "is_rental_order": false,
+            "has_pickable_lines": false,
+            "has_returnable_lines": false,
+            "is_late": false,
+            "rental_status": false,
+            "has_rented_products": false,
+            "partner_credit_warning": "",
+            "duplicated_order_ids": [],
+            "show_task_button": false,
+            "show_project_button": false,
+            "show_create_project_button": false,
+            "project_ids": [],
+            "is_product_milestone": false,
+            "project_count": 0,
+            "closed_task_count": 0,
+            "tasks_count": 0,
+            "completed_task_percentage": 0.0,
+            "timesheet_count": 0.0,
+            "show_hours_recorded_button": false,
+            "timesheet_total_duration": 0,
+            "timesheet_encode_uom_id": {
+                "id": 4,
+                "display_name": "Hours"
+            },
+            "delivery_count": 0,
+            "pos_order_count": 0,
+            "invoice_count": 0,
+            "renewal_count": 0,
+            "upsell_count": 0,
+            "history_count": 0,
+            "currency_id": {
+                "id": 159
+            },
+            "recurring_monthly": 0.0,
+            "spreadsheet_template_id": false,
+            "spreadsheet_id": false,
+            "payment_exception": false,
+            "pending_transaction": false,
+            "is_upselling": false,
+            "is_renewing": false,
+            "origin_order_id": false,
+            "display_late": false,
+            "name": "S00002",
+            "partner_id": {
+                "id": 3,
+                "display_name": "Usama Khizer"
+            },
+            "validity_date": "2025-01-16",
+            "date_order": "2025-01-08 22:33:52",
+            "has_active_pricelist": true,
+            "plan_id": {
+                "id": 1,
+                "display_name": "Monthly"
+            },
+            "next_invoice_date": false,
+            "close_reason_id": false,
+            "show_update_pricelist": false,
+            "pricelist_id": {
+                "id": 1,
+                "display_name": "Default (PKR)"
+            },
+            "country_code": "PK",
+            "company_id": {
+                "id": 1
+            },
+            "tax_country_id": {
+                "id": 177
+            },
+            "tax_calculation_rounding_method": "round_per_line",
+            "payment_term_id": false,
+            "rental_return_date": false,
+            "rental_start_date": false,
+            "show_update_duration": false,
+            "duration_days": 0,
+            "remaining_hours": 0,
+            "order_line": [
+                {
+                    "id": 4,
+                    "sequence": 10,
+                    "display_type": false,
+                    "product_uom_category_id": {
+                        "id": 1
+                    },
+                    "product_type": "service",
+                    "product_updatable": true,
+                    "is_downpayment": false,
+                    "product_id": {
+                        "id": 2,
+                        "display_name": "Down Payment (POS)"
+                    },
+                    "product_template_id": {
+                        "id": 2,
+                        "display_name": "Down Payment (POS)"
+                    },
+                    "product_template_attribute_value_ids": [],
+                    "product_custom_attribute_value_ids": [],
+                    "product_no_variant_attribute_value_ids": [],
+                    "is_configurable_product": false,
+                    "linked_line_id": false,
+                    "virtual_id": false,
+                    "linked_virtual_id": false,
+                    "selected_combo_items": false,
+                    "combo_item_id": false,
+                    "name": "Down Payment (POS)",
+                    "recurring_invoice": false,
+                    "product_uom_qty": 1.0,
+                    "is_rental": false,
+                    "is_product_rentable": false,
+                    "qty_delivered": 0.0,
+                    "qty_returned": 0.0,
+                    "virtual_available_at_date": 0.0,
+                    "qty_available_today": 0.0,
+                    "free_qty_today": 0.0,
+                    "scheduled_date": false,
+                    "forecast_expected_date": false,
+                    "warehouse_id": {
+                        "id": 1
+                    },
+                    "move_ids": [],
+                    "qty_to_deliver": 1.0,
+                    "is_mto": false,
+                    "display_qty_widget": false,
+                    "qty_delivered_method": "timesheet",
+                    "qty_invoiced": 0.0,
+                    "qty_to_invoice": 0.0,
+                    "product_uom_readonly": false,
+                    "product_uom": {
+                        "id": 1,
+                        "display_name": "Units"
+                    },
+                    "customer_lead": 0.0,
+                    "price_unit": 0.0,
+                    "technical_price_unit": 0.0,
+                    "tax_id": [],
+                    "discount": 0.0,
+                    "price_subtotal": 0.0,
+                    "price_total": 0.0,
+                    "tax_calculation_rounding_method": "round_per_line",
+                    "state": "draft",
+                    "invoice_status": "no",
+                    "currency_id": {
+                        "id": 159
+                    },
+                    "price_tax": 0.0,
+                    "company_id": {
+                        "id": 1
+                    },
+                    "product_document_ids": [],
+                    "is_product_archived": false,
+                    "order_id": {
+                        "id": 2
+                    },
+                    "available_product_document_ids": [],
+                    "start_date": false,
+                    "return_date": false
+                },
+                {
+                    "id": 5,
+                    "sequence": 11,
+                    "display_type": false,
+                    "product_uom_category_id": {
+                        "id": 3
+                    },
+                    "product_type": "service",
+                    "product_updatable": true,
+                    "is_downpayment": false,
+                    "product_id": {
+                        "id": 3,
+                        "display_name": "Service on Timesheets"
+                    },
+                    "product_template_id": {
+                        "id": 3,
+                        "display_name": "Service on Timesheets"
+                    },
+                    "product_template_attribute_value_ids": [],
+                    "product_custom_attribute_value_ids": [],
+                    "product_no_variant_attribute_value_ids": [],
+                    "is_configurable_product": false,
+                    "linked_line_id": false,
+                    "virtual_id": false,
+                    "linked_virtual_id": false,
+                    "selected_combo_items": false,
+                    "combo_item_id": false,
+                    "name": "Service on Timesheets",
+                    "recurring_invoice": false,
+                    "product_uom_qty": 1.0,
+                    "is_rental": false,
+                    "is_product_rentable": false,
+                    "qty_delivered": 0.0,
+                    "qty_returned": 0.0,
+                    "virtual_available_at_date": 0.0,
+                    "qty_available_today": 0.0,
+                    "free_qty_today": 0.0,
+                    "scheduled_date": false,
+                    "forecast_expected_date": false,
+                    "warehouse_id": {
+                        "id": 1
+                    },
+                    "move_ids": [],
+                    "qty_to_deliver": 1.0,
+                    "is_mto": false,
+                    "display_qty_widget": false,
+                    "qty_delivered_method": "timesheet",
+                    "qty_invoiced": 0.0,
+                    "qty_to_invoice": 0.0,
+                    "product_uom_readonly": false,
+                    "product_uom": {
+                        "id": 4,
+                        "display_name": "Hours"
+                    },
+                    "customer_lead": 0.0,
+                    "price_unit": 40.0,
+                    "technical_price_unit": 40.0,
+                    "tax_id": [
+                        {
+                            "id": 22,
+                            "display_name": "17%"
+                        }
+                    ],
+                    "discount": 0.0,
+                    "price_subtotal": 40.0,
+                    "price_total": 46.8,
+                    "tax_calculation_rounding_method": "round_per_line",
+                    "state": "draft",
+                    "invoice_status": "no",
+                    "currency_id": {
+                        "id": 159
+                    },
+                    "price_tax": 6.799999999999997,
+                    "company_id": {
+                        "id": 1
+                    },
+                    "product_document_ids": [],
+                    "is_product_archived": false,
+                    "order_id": {
+                        "id": 2
+                    },
+                    "available_product_document_ids": [],
+                    "start_date": false,
+                    "return_date": false
+                },
+                {
+                    "id": 6,
+                    "sequence": 12,
+                    "display_type": false,
+                    "product_uom_category_id": {
+                        "id": 1
+                    },
+                    "product_type": "service",
+                    "product_updatable": true,
+                    "is_downpayment": false,
+                    "product_id": {
+                        "id": 2,
+                        "display_name": "Down Payment (POS)"
+                    },
+                    "product_template_id": {
+                        "id": 2,
+                        "display_name": "Down Payment (POS)"
+                    },
+                    "product_template_attribute_value_ids": [],
+                    "product_custom_attribute_value_ids": [],
+                    "product_no_variant_attribute_value_ids": [],
+                    "is_configurable_product": false,
+                    "linked_line_id": false,
+                    "virtual_id": false,
+                    "linked_virtual_id": false,
+                    "selected_combo_items": false,
+                    "combo_item_id": false,
+                    "name": "Down Payment (POS)",
+                    "recurring_invoice": false,
+                    "product_uom_qty": 1.0,
+                    "is_rental": false,
+                    "is_product_rentable": false,
+                    "qty_delivered": 0.0,
+                    "qty_returned": 0.0,
+                    "virtual_available_at_date": 0.0,
+                    "qty_available_today": 0.0,
+                    "free_qty_today": 0.0,
+                    "scheduled_date": false,
+                    "forecast_expected_date": false,
+                    "warehouse_id": {
+                        "id": 1
+                    },
+                    "move_ids": [],
+                    "qty_to_deliver": 1.0,
+                    "is_mto": false,
+                    "display_qty_widget": false,
+                    "qty_delivered_method": "timesheet",
+                    "qty_invoiced": 0.0,
+                    "qty_to_invoice": 0.0,
+                    "product_uom_readonly": false,
+                    "product_uom": {
+                        "id": 1,
+                        "display_name": "Units"
+                    },
+                    "customer_lead": 0.0,
+                    "price_unit": 0.0,
+                    "technical_price_unit": 0.0,
+                    "tax_id": [],
+                    "discount": 0.0,
+                    "price_subtotal": 0.0,
+                    "price_total": 0.0,
+                    "tax_calculation_rounding_method": "round_per_line",
+                    "state": "draft",
+                    "invoice_status": "no",
+                    "currency_id": {
+                        "id": 159
+                    },
+                    "price_tax": 0.0,
+                    "company_id": {
+                        "id": 1
+                    },
+                    "product_document_ids": [],
+                    "is_product_archived": false,
+                    "order_id": {
+                        "id": 2
+                    },
+                    "available_product_document_ids": [],
+                    "start_date": false,
+                    "return_date": false
+                }
+            ],
+            "note": false,
+            "tax_totals": {
+                "currency_id": 159,
+                "currency_pd": 0.01,
+                "company_currency_id": 159,
+                "company_currency_pd": 0.01,
+                "has_tax_groups": true,
+                "subtotals": [
+                    {
+                        "tax_groups": [
+                            {
+                                "id": 13,
+                                "involved_tax_ids": [22],
+                                "tax_amount_currency": 6.8,
+                                "tax_amount": 6.8,
+                                "base_amount_currency": 40.0,
+                                "base_amount": 40.0,
+                                "display_base_amount_currency": 40.0,
+                                "display_base_amount": 40.0,
+                                "group_name": "Tax 17%",
+                                "group_label": false
+                            }
+                        ],
+                        "tax_amount_currency": 6.8,
+                        "tax_amount": 6.8,
+                        "base_amount_currency": 40.0,
+                        "base_amount": 40.0,
+                        "name": "Untaxed Amount"
+                    }
+                ],
+                "base_amount_currency": 40.0,
+                "base_amount": 40.0,
+                "tax_amount_currency": 6.8,
+                "tax_amount": 6.8,
+                "same_tax_base": true,
+                "total_amount_currency": 46.8,
+                "total_amount": 46.8
+            },
+            "recurring_details": "<div class=\"pb-2\">\n                <div>\n                    <span class=\"text-start\">Recurring</span>:\n                    <span class=\"text-end\">0.00&nbsp;Rs.</span>\n                </div>\n                <div>\n                    <span class=\"text-start\">Non Recurring</span>:\n                    <span class=\"text-end\">40.00&nbsp;Rs.</span>\n                </div>\n            </div>",
+            "sale_order_option_ids": [],
+            "quotation_document_ids": [],
+            "customizable_pdf_form_fields": false,
+            "user_id": {
+                "id": 2,
+                "display_name": "Usama Khizer"
+            },
+            "team_id": {
+                "id": 1,
+                "display_name": "Sales"
+            },
+            "require_signature": true,
+            "require_payment": false,
+            "prepayment_percent": 1.0,
+            "reference": false,
+            "client_order_ref": false,
+            "tag_ids": [],
+            "start_date": false,
+            "first_contract_date": false,
+            "commercial_partner_id": {
+                "id": 3
+            },
+            "show_update_fpos": false,
+            "fiscal_position_id": false,
+            "partner_invoice_id": {
+                "id": 3
+            },
+            "project_id": false,
+            "invoice_status": "no",
+            "warehouse_id": {
+                "id": 1,
+                "display_name": "usama"
+            },
+            "incoterm": false,
+            "incoterm_location": false,
+            "picking_policy": "direct",
+            "commitment_date": false,
+            "expected_date": "2025-01-08 22:36:29",
+            "show_json_popover": false,
+            "json_popover": "{\"popoverTemplate\": \"sale_stock.DelayAlertWidget\", \"late_elements\": []}",
+            "effective_date": false,
+            "delivery_status": false,
+            "origin": false,
+            "campaign_id": false,
+            "medium_id": false,
+            "source_id": false,
+            "internal_note_display": false,
+            "display_recurring_stock_delivery_warning": false,
+            "has_archived_products": false,
+            "company_price_include": "tax_excluded",
+            "is_pdf_quote_builder_available": false,
+            "display_name": "S00002"
+        }
+    ]
+}
