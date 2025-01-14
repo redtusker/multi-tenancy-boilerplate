@@ -5,8 +5,11 @@ namespace App\Models;
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Notifications\Notifiable;
+use App\Models\SuperAdmin\General\AuditLog;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use App\Models\SuperAdmin\CompanyAndUserManagement\Company;
+use App\Models\SuperAdmin\CompanyAndUserManagement\TeamMember;
 
 class User extends BaseSuperAdmin
 {
@@ -47,4 +50,19 @@ class User extends BaseSuperAdmin
         ];
     }
 
+    // Relationships
+    public function company()
+    {
+        return $this->belongsTo(Company::class, 'company_id');
+    }
+
+    public function teamMembers()
+    {
+        return $this->hasMany(TeamMember::class, 'user_id');
+    }
+
+    public function auditLogs()
+    {
+        return $this->hasMany(AuditLog::class, 'user_id');
+    }
 }
